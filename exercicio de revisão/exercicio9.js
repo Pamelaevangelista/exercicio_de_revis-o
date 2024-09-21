@@ -1,10 +1,10 @@
 // Escreva um loop while que calcule a soma dos números de 1 a 50.var soma=0;
 
- let num = 1;
+ let i=1;
  let soma = 0;
 
- while (n <= 50) {
-    soma += n;
-    n++;
+ while (i <= 50) {
+    soma += i;
+    i++;
 }
-console.log("A soma dos números de 1 a 50 é :"  + soma);
+console.log(soma);
